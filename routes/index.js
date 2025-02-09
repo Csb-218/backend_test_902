@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Backend Test 902' });
+  res.render('index', { title: 'Customizable Caching API' });
 });
 
 module.exports = router;
