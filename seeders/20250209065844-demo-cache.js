@@ -5,7 +5,6 @@ module.exports = {
   async up(queryInterface, Sequelize) {
    
     await queryInterface.bulkInsert('caches', [
-
       {
         "key": "1",
         "value": "csb"
